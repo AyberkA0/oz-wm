@@ -1,0 +1,21 @@
+[package]
+name = "oz-compositor"
+description = "Oz as a Wayland compositor: a vertically scrolling tiling window manager built on Smithay."
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "oz"
+path = "src/main.rs"
+
+[dependencies]
+oz-core = { path = "../oz-core" }
+serde_json = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[dependencies.smithay]
+version = "0.7"
+default-features = false
+features = ["backend_winit", "wayland_frontend", "desktop"]

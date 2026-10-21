@@ -1,0 +1,11 @@
+[package]
+name = "oz-core"
+description = "Layout logic of the Oz window manager: the vertical strip, scrolling, drops, regions, saved layouts. No windowing system."
+version.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+

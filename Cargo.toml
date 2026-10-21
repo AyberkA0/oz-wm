@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["oz-core", "oz-compositor"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+repository = "https://github.com/AyberkA0/oz-wm-wl"
