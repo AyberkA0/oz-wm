@@ -2,7 +2,7 @@
 
 Oz is a vertically scrolling tiling window manager. Windows are arranged in rows on a strip that is taller than the screen, and the screen is a view onto that strip: a three-finger swipe scrolls it up and down. New windows open as a row of their own next to the focused one, nothing is ever resized to make room, and several windows can share a row side by side.
 
-This repository is the Linux port, a Wayland compositor built on [Smithay](https://github.com/Smithay/smithay). The original macOS version is [oz-wc-macos](https://github.com/AyberkA0/oz-wc-macos); its behaviour is the reference for this one.
+This repository is the Linux port, a Wayland compositor built on [Smithay](https://github.com/Smithay/smithay). The original macOS version is [oz-wm-macos](https://github.com/AyberkA0/oz-wm-macos); its behaviour is the reference for this one.
 
 > Status: early. The layout engine is complete and tested; the compositor runs nested in a window and tiles, scrolls, focuses and rearranges windows from the keyboard and touchpad. See [ROADMAP.md](ROADMAP.md) for what is next.
 
